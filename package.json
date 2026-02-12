@@ -1,0 +1,19 @@
+{
+  "name": "backend-dev_bridgelab",
+  "version": "1.0.0",
+  "description": "A professional repo for bridge lab classes \r here you will only see right now some branches for our future work right now \r for example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unreal-Vikhyat/Backend-Dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unreal-Vikhyat/Backend-Dev/issues"
+  },
+  "homepage": "https://github.com/Unreal-Vikhyat/Backend-Dev#readme"
+}

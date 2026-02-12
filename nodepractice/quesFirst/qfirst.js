@@ -1,8 +1,26 @@
-const samplefile = require("fs");
+const fs = require('fs')
+var WordCount=0;
 
-samplefile.readFile("file.txt", "utf8", (err, data) => {
-    const words = data.trim().split(/\s+/);
-    const count = words.length;
+fs.readFile('./file.txt' ,'utf-8',(err,data)=>
+{
+    if(err) 
+    {
+        console.log("error while reading data");
+        return;
+    }
 
-    samplefile.writeFile("newfile.txt", `Word Count: ${count}`, () => {});
-});
+const words=data.trim().split(/\s+/);
+const ans =words.length;
+
+fs.writeFile('./Answer.txt',`Answer:${ans}`,(err)=>
+{
+    if(err) 
+    {
+        console.log("error while writing");
+        return;
+    }
+
+    console.log("done")
+})
+
+})
