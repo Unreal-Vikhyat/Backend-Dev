@@ -1,0 +1,11 @@
+{
+  "name": "multi-env-app",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "env": {
+    "NODE_ENV": {
+      "value": "development"
+    }
+  }
+}
